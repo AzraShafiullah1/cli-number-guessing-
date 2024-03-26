@@ -4,7 +4,9 @@
   "description": "This is cli based number guessing game",
   "main": "index.js",
   "type": "module",
-  "bin":"index.js",
+  "bin": {
+    "sky100cli-number-guessing": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
